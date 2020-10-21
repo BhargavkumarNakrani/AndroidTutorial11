@@ -42,10 +42,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         lstData = findViewById(R.id.lstData);
-        //String url = "https://jsonplaceholder.typicode.com/users";
-
-        //Setup the data source
-        //new MyAsyncTask().execute();
 
         volleyAPICall();
         lstData.setOnItemClickListener(new AdapterView.OnItemClickListener() {
